@@ -1,4 +1,4 @@
-# Unit 8: Modern JavaScript (ES6+)
+# Modern JavaScript (ES6+)
 
 Advanced ES6+ features like destructuring, spread/rest operators, template literals, and advanced use of arrow functions are covered. These features are built on top of the basic and functional programming concepts introduced earlier.
 ## Project: Recipe App
