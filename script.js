@@ -28,7 +28,7 @@ document.getElementById('menuForm').addEventListener('submit', (event) => {
     menuItems.push(newItem);
 
     // TODO: Use the spread operator to merge new categories into the set
-    allCategories = new set([...allCategories, ...itemCategories]);
+    allCategories = new Set([...allCategories, ...itemCategories]);
     
     updateCategoryLinks(); // Update category links for filtering
     displayMenuItems(menuItems); // Display the menu items
