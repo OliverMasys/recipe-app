@@ -23,12 +23,12 @@ document.getElementById('menuForm').addEventListener('submit', (event) => {
     const description = document.getElementById('description').value;
 
     // TODO: Create a new menu item object and destructure properties for cleaner access
-    const newItem = {name, categories: [itemCategoriesCategories], description };
+    const newItem = {name, categories: [...itemCategories], description };
 
     menuItems.push(newItem);
 
     // TODO: Use the spread operator to merge new categories into the set
-
+    allCategories = new set([...allCategories, ...itemCategories]);
     
     updateCategoryLinks(); // Update category links for filtering
     displayMenuItems(menuItems); // Display the menu items
